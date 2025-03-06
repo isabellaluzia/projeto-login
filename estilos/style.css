@@ -68,11 +68,22 @@ div#formulario > p{
 
 form > div.campo{
     background-color: palevioletred;
+    border: 2px solid palevioletred;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+}
+
+div.campo > input{
+    background-color: rgba(182, 171, 182, 0.671);
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit]{
